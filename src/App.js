@@ -17,7 +17,7 @@ function App() {
           <Container>
             <Routes>
               <Route path="/" element={<CleanImageSequence />} />
-              <Route path="/indigo64" element={<CleanImageSequence />} />
+              <Route path="indigo64" element={<CleanImageSequence />} />
               <Route path="donate" element={<Donate />} />
               <Route path="features" element={<Features />} />
               <Route path="tutorial" element={<Tutorial />} />
