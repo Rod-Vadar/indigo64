@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/indigo64/static/css/main.b223d69c.css",
-    "main.js": "/indigo64/static/js/main.26f4178f.js",
+    "main.js": "/indigo64/static/js/main.a243ae72.js",
     "static/media/cleantraffic.png": "/indigo64/static/media/cleantraffic.958fa461cdd214e12a1f.png",
     "static/media/traffic.jpg": "/indigo64/static/media/traffic.2bb09d00fa3027fdf4bf.jpg",
     "static/media/banner.png": "/indigo64/static/media/banner.1e5358ddd2765f737221.png",
     "index.html": "/indigo64/index.html",
     "main.b223d69c.css.map": "/indigo64/static/css/main.b223d69c.css.map",
-    "main.26f4178f.js.map": "/indigo64/static/js/main.26f4178f.js.map"
+    "main.a243ae72.js.map": "/indigo64/static/js/main.a243ae72.js.map"
   },
   "entrypoints": [
     "static/css/main.b223d69c.css",
-    "static/js/main.26f4178f.js"
+    "static/js/main.a243ae72.js"
   ]
 }
