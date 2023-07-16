@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/indigo64/static/css/main.b223d69c.css",
+    "main.js": "/indigo64/static/js/main.eb77e7aa.js",
+    "index.html": "/indigo64/index.html",
+    "main.b223d69c.css.map": "/indigo64/static/css/main.b223d69c.css.map",
+    "main.eb77e7aa.js.map": "/indigo64/static/js/main.eb77e7aa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b223d69c.css",
+    "static/js/main.eb77e7aa.js"
+  ]
+}
