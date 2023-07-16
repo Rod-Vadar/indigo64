@@ -1,6 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./Features.css";
+import traffic from "../traffic.jpg";
+import cleantraffic from "../cleantraffic.png";
 
 export default function Features() {
   return (
@@ -19,14 +21,14 @@ export default function Features() {
         </Col>
         <Col md={6}>
           <div className="image-container pb-2">
-            <img src="../../.././traffic.jpg" alt="Before Using Indigo" />
+            <img src={traffic} alt="Before Using Indigo" />
           </div>
         </Col>
       </Row>
       <Row>
         <Col md={6}>
           <div className="image-container">
-            <img src="../../.././cleantraffic.png" alt="Rendered with Indigo" />
+            <img src={cleantraffic} alt="Rendered with Indigo" />
           </div>
         </Col>
         <Col md={6}>
