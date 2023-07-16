@@ -1,8 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./Features.css";
-import traffic from "../traffic.jpg";
-import cleantraffic from "../cleantraffic.png";
+import traffic from "../../src/traffic.jpg";
+import cleantraffic from "../../src/cleantraffic.png";
 
 export default function Features() {
   return (
