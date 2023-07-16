@@ -1,24 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import { Container } from "react-bootstrap";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import CleanImageSequence from "./components/CleanImageSequence";
+import Donate from "./components/Donate";
+import Features from "./components/Features";
+import Tutorial from "./components/Tutorial";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <div>
+        <Header />
+        <main className="py-3">
+          <Container>
+            <Routes>
+              <Route path="/" element={<CleanImageSequence />} />
+              <Route path="donate" element={<Donate />} />
+              <Route path="features" element={<Features />} />
+              <Route path="tutorial" element={<Tutorial />} />
+            </Routes>
+          </Container>
+        </main>
+        <Footer />
+      </div>
+    </BrowserRouter>
   );
 }
 

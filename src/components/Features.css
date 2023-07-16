@@ -1,0 +1,19 @@
+.features-container {
+  max-width: 800px;
+  /* margin: 0 auto; */
+  margin-right: 500px;
+  text-align: left;
+}
+
+.feature-content {
+  margin-bottom: 20px;
+}
+
+.image-container {
+  text-align: center;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+}
