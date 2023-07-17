@@ -34,7 +34,7 @@ export default function Tutorial() {
             </li>
             <li>
               Try to position yourself at a 90-degree angle to the moving
-              objects you want to remove. This angle helps capture the
+              objects you want to remove. This angle helps to capture the
               background properly and facilitates better results.
             </li>
           </ol>
