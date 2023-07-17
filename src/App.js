@@ -16,7 +16,7 @@ function App() {
         <main className="py-3">
           <Container>
             <Routes>
-              <Route path="/" element={<CleanImageSequence />} />
+              <Route index element={<CleanImageSequence />} />
               <Route path="indigo64" element={<CleanImageSequence />} />
               <Route path="donate" element={<Donate />} />
               <Route path="features" element={<Features />} />
