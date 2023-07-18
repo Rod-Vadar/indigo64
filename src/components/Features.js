@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./Features.css";
 import traffic from "../../src/traffic.jpg";
-import cleantraffic from "../../src/cleantraffic.png";
+import cleantraffic from "../../src/cleantraffic.jpg";
 
 export default function Features() {
   return (
