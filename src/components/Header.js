@@ -12,7 +12,7 @@ function Header() {
         <Navbar bg="light" data-bs-theme="light">
           <Container>
             <Navbar.Brand as={Link} to="/">
-              Indigo64
+              Start Indigo64
             </Navbar.Brand>
             <Nav className="mr-auto">
               <Nav.Link as={NavLink} to="/features">
@@ -27,8 +27,8 @@ function Header() {
             </Nav>
           </Container>
         </Navbar>
-        <Container>
-          <img src={banner} alt="logo" />
+        <Container className="py-2">
+          <img src={banner} style={{ maxWidth: "35%" }} alt="logo" />
           <h3 className="px-3">Clean Image Sequences with Indigo64</h3>
         </Container>
       </header>

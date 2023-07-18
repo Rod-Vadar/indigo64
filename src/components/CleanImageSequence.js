@@ -136,15 +136,25 @@ function CleanImageSequence() {
     let incrementer = 0;
     const rgbaLength = numberOfImages * numberOfBytesPerImage;
 
+    // for (let i = 0; i < numberOfBytesPerImage; i += 4) {
+    //   for (let j = 0; j < rgbaLength; j += numberOfBytesPerImage) {
+    //     for (let k = 0; k < 4; k++) {
+    //       rgbaAlignedPixels[incrementer] = rgba[i + j + k];
+    //       incrementer++;
+    //     }
+    //   }
+    // }
+
     for (let i = 0; i < numberOfBytesPerImage; i += 4) {
       for (let j = 0; j < rgbaLength; j += numberOfBytesPerImage) {
-        for (let k = 0; k < 4; k++) {
-          rgbaAlignedPixels[incrementer] = rgba[i + j + k];
-          incrementer++;
-        }
+        rgbaAlignedPixels[incrementer + 0] = rgba[i + j + 0];
+        rgbaAlignedPixels[incrementer + 1] = rgba[i + j + 1];
+        rgbaAlignedPixels[incrementer + 2] = rgba[i + j + 2];
+        rgbaAlignedPixels[incrementer + 3] = rgba[i + j + 3];
+        incrementer += 4;
       }
     }
-    // end original
+    //end original
 
     // for (let j = 0; j < rgbaAlignedPixels.length; j += 4) {
     //   const r = rgbaAlignedPixels[j + 0];
@@ -262,6 +272,7 @@ function CleanImageSequence() {
   return (
     <Container>
       <div
+        className="canvas"
         onDrop={handleDrop}
         onDragOver={handleDragOver}
         style={{

@@ -41,10 +41,20 @@ export default function Tutorial() {
         </Col>
         <Col>
           <div className="text-center">
-            <h3>Drop all the image samples into Indigo</h3>
-            <Button variant="primary" onClick={handleDownloadSampleImages}>
-              Download Sample Images
+            <h3>Test run these image samples on Indigo64</h3>
+            <Button
+              className="mt-1"
+              variant="primary"
+              onClick={handleDownloadSampleImages}
+            >
+              Download Samples <i class="fa-solid fa-download"></i>
             </Button>
+            <p className="pt-2">
+              Copy all the images to your computer and then drop them into the
+              canvas. Try dropping 5 images. Then try 10 and so on until you get
+              an acceptable result.
+            </p>
+            <p>Allow a few minutes to process the images</p>
           </div>
         </Col>
       </Row>

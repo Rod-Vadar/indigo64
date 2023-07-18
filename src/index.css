@@ -1,3 +1,29 @@
 main {
   min-height: 65vh;
+  position: relative;
+  overflow: hidden;
+}
+main::before {
+  content: "";
+  background-image: url("wallpaper.jpg");
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.1;
+  z-index: -1;
+}
+
+.canvas {
+  /* background-image: linear-gradient(
+    to left,
+    rgb(255, 242, 244),
+    rgb(255, 245, 227)
+  ); */
+
+  background-color: rgb(254, 254, 254);
+
+  z-index: -1;
 }
