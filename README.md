@@ -1,4 +1,4 @@
-# Automatically remove moving satellites from ground based astronomical image sequences using Indigo64
+# Automatically remove moving  Starlink satellites from ground based astronomical image sequences using Indigo64
 
 # Automatically create Clean Plates from image sequences in a browser
 
