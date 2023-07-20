@@ -4,7 +4,7 @@ import { Container } from "react-bootstrap";
 function CleanImageSequence() {
   const canvasRef = useRef(null);
   const [message, setMessage] = useState(
-    "Simply drag and drop your image sequence onto the canvas"
+    "Drop your image sequence onto the canvas to auto-generate a Clean Plate"
   );
   const [isRendered, setIsRendered] = useState(false);
   // original handledrop

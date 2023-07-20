@@ -12,8 +12,8 @@ export default function Donate() {
             <p style={{ textAlign: "justify" }}>Hi there!</p>
             <p style={{ textAlign: "justify" }}>
               My name is Rod, and I'm a small developer who is passionate about
-              creating innovative solutions for photographers and astronomers. I
-              wrote Indigo64 after hearing that astronomy images were being
+              developing innovative solutions for photographers and astronomers.
+              I wrote Indigo64 after reading that astronomy images were being
               cluttered with Elon Musk's Starlink satellites. I think Starlink
               is amazing, but maybe it is possible to solve this issue so that
               everyone is happy.
