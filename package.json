@@ -1,9 +1,10 @@
 {
   "name": "indigo64",
   "version": "0.1.0",
-  "homepage": "https://rod-vadar.github.io",
+  "homepage": "https://indigo64.app",
   "private": true,
   "dependencies": {
+    "mode-stack-processing": "github:Rod-Vadar/mode-stack-processing#592b635b1dbf15fa96b766da315bf9c45f0a2903",
     "react": "^18.2.0",
     "react-bootstrap": "^2.8.0",
     "react-dom": "^18.2.0",

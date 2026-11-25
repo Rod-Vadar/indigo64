@@ -1,4 +1,12 @@
-# Automatically remove moving  Starlink satellites from ground based astronomical image sequences using Indigo64
+# Indigo64 image stacking studio
+
+The new workspace creates a clean plate from a sequence of aligned, same-size images. It uses the [Mode Stack Processing library](https://github.com/Rod-Vadar/mode-stack-processing), with WebGPU where available and a CPU fallback in automatic mode. Processing happens locally in a browser worker; decoded frames use temporary browser storage. Browser format support and available storage vary, and alpha transparency is ignored.
+
+To run the workspace locally, install Node.js, then run `npm install` and `npm start` from this folder. Open `http://localhost:3000`. For a production build, run `npm run build`. The library dependency is pinned to a GitHub revision.
+
+The notes below describe the original project and its motivation.
+
+# Automatically remove moving Starlink satellites from ground based astronomical image sequences using Indigo64
 
 # Automatically create Clean Plates from image sequences in a browser
 
